@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-base
+  annotations:
+    github.com/project-slug: GustavoSzi/react-base-project
+spec:
+  type: website
+  lifecycle: experimental
+  owner: devs
