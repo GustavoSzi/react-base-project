@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: react-base
-  description: Projeto React criado via template
+  name: {{ values.name }}
+  description: {{ values.description }}
   owner: devs
 spec:
   type: website
