@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: react-base
+  name: ${{ values.name }}
   annotations:
-    github.com/project-slug: GustavoSzi/react-base-project
+    github.com/project-slug: GustavoSzi/${{ values.name }}
 spec:
   type: website
   lifecycle: experimental
